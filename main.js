@@ -13,14 +13,3 @@ a.map((obj => {
         res.push(obj)
     }
 }))
-console.log(res)
-
-// ids.forEach(id => {
-//     a.map(obj => {
-//         if (obj.id == id) {
-//             res.push(obj)
-//         }
-//     })
-// })
-
-// console.log(res)

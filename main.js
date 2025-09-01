@@ -9,7 +9,7 @@ const randDice = (dice) => {
         { dice: "D20", max: 20, min: 1 },
     ]
 
-    const selectedDice = dices.find(d => d.dice === dice)
+    const selectedDice = dices.find(d => d.dice === dice.toUpperCase())
     if (!selectedDice) {
         return 'Выбранный dice не найден'
     }

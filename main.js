@@ -8,5 +8,3 @@ const validatorAge = (bd) => {
         return false
     }
 }
-
-console.log(validatorAge('2011-09-05'))

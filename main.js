@@ -1,5 +1,5 @@
 const timerHtml = document.querySelector('.time')
-const endOfYear = new Date(new Date().getFullYear(), 12, 1, 0, 0, 0)
+const endOfYear = new Date(new Date().getFullYear(), 0, 1, 0, 0, 0)
 
 const timeToYearEnd = () => {
     const interval = setInterval(() => {

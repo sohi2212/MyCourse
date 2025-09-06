@@ -7,7 +7,7 @@ const timeToYearEnd = () => {
         const dif = endOfYear - now
 
         if (dif <= 0) {
-            timerHtml.innerHTML("С новым годом!")
+            timerHtml.innerHTML = "С новым годом!"
         } else {
             const res = calculateTimeToNewYear(now, endOfYear)
             timerHtml.innerHTML = `${res.months} месяцев, ${res.days} дней, ${res.hours} часов, ${res.minutes} минут, ${res.seconds} секунд`
